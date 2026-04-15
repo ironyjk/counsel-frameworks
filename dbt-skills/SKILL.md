@@ -81,7 +81,7 @@ For when emotions are at 7+ on a 0-10 scale and you need immediate physiological
 
 | Letter | Skill | How |
 |--------|-------|-----|
-| **T** | Temperature | Cold water on face (dive reflex), ice on wrists/neck. Triggers mammalian dive reflex, drops heart rate. |
+| **T** | Temperature | Cold water on face (dive reflex), ice on wrists/neck. Triggers mammalian dive reflex, drops heart rate. **Note: The cold water technique may be contraindicated for cardiac conditions. Consult a physician if you have heart-related health concerns.** |
 | **I** | Intense exercise | 10-20 minutes of vigorous movement. Burns off adrenaline and cortisol. |
 | **P** | Paced breathing | Exhale longer than inhale (e.g., 4 in, 6 out). Activates parasympathetic nervous system. |
 | **P** | Paired muscle relaxation | Tense each muscle group while inhaling, release while exhaling and saying "relax." |

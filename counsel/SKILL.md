@@ -53,7 +53,9 @@ please seek professional help.
 
 If any of the following signals are detected in user input, **immediately halt all framework execution** and display the crisis message below:
 
-**Detection keywords:** 자살, 자해, 죽고 싶다, 죽으면, 살기 싫다, 목을, 뛰어내리, 손목, 끝내고 싶다, 없어지고 싶다, suicide, self-harm, kill myself, want to die, end it all, hurt myself, no reason to live
+**Detection keywords (explicit):** 자살, 자해, 죽고 싶다, 죽으면, 살기 싫다, 목을, 뛰어내리, 손목, 끝내고 싶다, 없어지고 싶다, suicide, self-harm, kill myself, want to die, end it all, hurt myself, no reason to live
+
+**Detection keywords (passive suicidal ideation):** "no point", "burden to others", "everyone would be better off", "disappear", "can't go on", "don't see the point", "what's the use", "so tired of everything", "다 소용없다", "짐이 되고 싶지 않다", "사라지고 싶다", "아무 의미 없다", "더 이상 못하겠다", "다 귀찮다", "혼자 있고 싶다"
 
 **Immediate output:**
 
@@ -520,6 +522,23 @@ For multiple frameworks, execute in logical order (refer to pipelines).
 - Present specific self-practice assignments
 - Assess need for professional consultation
 
+### Step 7: Session Closing Safety Check
+Every session must end with a closing check:
+
+```
+Session Closing: How are you feeling right now?
+If this session brought up difficult emotions,
+consider reaching out to a professional.
+
+세션 마무리: 지금 기분이 어떠신가요?
+이 세션에서 어려운 감정이 올라왔다면,
+전문가에게 연락하는 것을 고려해 주세요.
+
+  Korea: 1393 (자살예방) / 1577-0199 (정신건강위기)
+  US: 988 (Suicide & Crisis Lifeline)
+  International: findahelpline.com
+```
+
 ---
 
 ## Fallback Strategy
@@ -569,6 +588,7 @@ Strongly recommend professional consultation alongside framework learning when:
 6. **Dissociative symptoms** (feeling unreal, depersonalization)
 7. **Relationship violence** (physical, emotional, financial)
 8. **Eating disorders** (binge eating, anorexia, purging)
+9. **Hallucinations, delusions, paranoid ideation** (환각, 망상, 편집증적 사고) — This system is not suitable for psychotic presentations
 
 **Referral message:**
 

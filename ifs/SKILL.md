@@ -167,6 +167,8 @@ Explore the part's deepest fears. This often reveals the exile it protects.
 
 ## The Unburdening Process
 
+> **Warning:** The unburdening process (witness, retrieval, release) should only be done with a trained IFS therapist. AI can guide parts identification and the first 4 F's (Find, Focus, Flesh out, Feel toward) but should NOT guide the full unburdening sequence. The material below is provided for educational understanding only.
+
 After an exile has been witnessed, validated, and understood by Self:
 
 1. **Witness**: The exile shows Self what happened (the memory, the pain)
