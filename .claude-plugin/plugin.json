@@ -1,0 +1,30 @@
+{
+  "name": "counsel-frameworks",
+  "description": "Psychological Framework Learning Tool — meta-router for 14 counseling frameworks (CBT, ACT, SFBT, MI, IFS, Narrative Therapy, MBSR, MBCT, PPT, REBT, Gottman, DBT Skills, Worden's Grief, PCT). For self-reflection and learning only. NOT a replacement for professional therapy. Invoke /counsel.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Choi Hee Chul",
+    "email": "ironyjk@gmail.com"
+  },
+  "homepage": "https://github.com/ironyjk/counsel-frameworks",
+  "repository": "https://github.com/ironyjk/counsel-frameworks",
+  "license": "MIT",
+  "keywords": ["psychology", "counseling", "cbt", "act", "mindfulness", "gottman", "korean"],
+  "skills": [
+    "./act",
+    "./cbt",
+    "./counsel",
+    "./dbt-skills",
+    "./gottman",
+    "./ifs",
+    "./mbct",
+    "./mbsr",
+    "./mi",
+    "./narrative-therapy",
+    "./pct",
+    "./ppt",
+    "./rebt",
+    "./sfbt",
+    "./worden-grief"
+  ]
+}
