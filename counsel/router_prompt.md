@@ -32,8 +32,8 @@ Each entry: `name` — **when to use** (one line) / **example** (one concrete sc
 
 ### Cognitive & Behavioral (thoughts, beliefs, action)
 
-**cbt** — Automatic negative thoughts or cognitive distortions are driving depression/anxiety; need structured thought-record work.
-Example: "Every time my boss emails me, I assume I'm about to be fired and spiral into panic. How do I challenge this?"
+**cbt** — Clinical depression or anxiety symptoms (anhedonia, low motivation, hopelessness, panic, rumination, automatic negative thoughts); the first-line evidence-based treatment for actual depressive/anxious disorders.
+Example: "Lately I have no motivation for anything and it's hard to get out of bed in the morning. Things I used to enjoy no longer feel fun." (depressive symptoms — anhedonia, amotivation)
 
 **rebt** — A rigid irrational belief ("must/should/can't stand it") is generating disturbance; need A-B-C-D-E dispute.
 Example: "I absolutely must be perfect at my job or I'm worthless. This belief is crushing me."
@@ -49,8 +49,8 @@ Example: "I just want to stop dwelling on what's broken and figure out one small
 **mi** — Client is ambivalent about a behavior change (substance, exercise, medication, leaving a job); need to elicit change talk without pushing.
 Example: "Part of me knows I should quit drinking, but part of me doesn't want to. I keep going back and forth."
 
-**ppt** — Client is functional but flat/languishing; build well-being through strengths, gratitude, engagement, meaning (PERMA).
-Example: "I'm not depressed, but life feels grey and purposeless. How do I build something that actually feels good?"
+**ppt** — Client is NOT clinically depressed — functional, symptom-free, but languishing/grey; build well-being through strengths, gratitude, engagement, meaning (PERMA). Do NOT use for depressive symptoms (anhedonia, low motivation, can't get out of bed) — those route to `cbt`.
+Example: "I'm functioning fine at work and sleeping ok, but life feels grey and purposeless. I'm not depressed, I just want something that feels meaningful."
 
 ### Mindfulness & Present-Moment (awareness-based)
 
@@ -102,6 +102,7 @@ Answer (one word, lowercase):
 
 - **SAFETY-CRITICAL — Crisis routing**: Any scenario involving suicidal ideation, self-harm intent, homicidal thoughts, active psychosis, or child abuse MUST NOT be handled by this router alone. The caller pipeline is responsible for crisis detection BEFORE routing. Regardless of which framework the router returns, the caller must prepend crisis-resource guidance (e.g., Korea: 자살예방상담전화 1393 / 정신건강상담 1577-0199; US: 988 Suicide & Crisis Lifeline). This was a regression point in a previous experiment — do not remove this safeguard.
 - **Ambiguous cases deliberately kept**: e.g., "I feel empty and stuck" could be `sfbt` (stuckness) or `ppt` (languishing). Prefer `ppt` when the scenario emphasizes meaning/flatness without a clear problem focus; prefer `sfbt` when the client wants actionable next steps.
+- **CBT vs PPT (critical disambiguation)**: Any scenario with **depressive symptoms** (anhedonia, low motivation, can't get out of bed, hopelessness) → `cbt`. `ppt` is only for *functional* clients who are flat/languishing without clinical symptoms. "I'm not depressed, just feel grey" → `ppt`; "I have no motivation, can't enjoy things" → `cbt`.
 - **`mi` vs `cbt`**: If the client is *ambivalent* about changing, route to `mi`. If they have *already decided* to change and want to fight negative thinking, route to `cbt`.
 - **`ifs` vs `pct`**: `ifs` when client spontaneously uses parts language. `pct` when client needs unconditional listening without technique.
 - **`mbsr` vs `mbct`**: `mbct` only for depressive relapse prevention. All other mindfulness use cases → `mbsr`.
